@@ -1,14 +1,15 @@
 module.exports = {
   content: ["index.html"],
+  darkMode: "class",
   theme: {
     container: {
       center: true,
-      padding: "16px",
+      // padding: "16px",
     },
     extend: {
       colors: {
-        primary: "#1e40af",
-        secondary: "#64748b",
+        primary: "#1D4E89",
+        secondary: "white",
         dark: "#0f172a",
       },
       screens: {
