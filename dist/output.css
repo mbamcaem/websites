@@ -756,6 +756,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   cursor: pointer;
 }
 
+.list-disc {
+  list-style-type: disc;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -823,6 +827,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 .border-slate-300 {
   --tw-border-opacity: 1;
   border-color: rgb(203 213 225 / var(--tw-border-opacity));
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.border-red-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(239 68 68 / var(--tw-border-opacity));
 }
 
 .bg-primary {
